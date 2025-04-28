@@ -107,6 +107,11 @@ export default function MapView() {
   };
 
   const buildExtrusionGeoJSON = (stepIdx) => {
+
+    if (stepIdx === 0 || stepIdx === 1 || stepIdx ===2 || stepIdx === storySteps.length - 1) {
+      return { type: "FeatureCollection", features: [] };
+    }
+
     const field = storySteps[stepIdx].dataField;
     const { min, max } = field ? fieldStats[field] || {} : {};
     const range = max - min || 1;
