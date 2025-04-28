@@ -21,12 +21,12 @@ export default function MapView() {
     { title: "Redlining", dataField: null},
     { title: "Redlining Grades", dataField: null },
     { title: "Transition", dataField: null },
-    { title: "Unemployment %", description: "Decades after redlining was outlawed, the neighborhoods once marked in red remain economically trapped.​ Our data shows a clear pattern: in 2024, historically redlined areas—grades C and D—experience significantly higher unemployment than areas once deemed “investment-worthy.”​ This isn’t just correlation—it’s a consequence. When neighborhoods were cut off from mortgage access and business loans, they were cut off from upward mobility.​ Businesses didn’t open. Schools weren’t funded. Wealth wasn’t built.​ Today, unemployment lingers where opportunity was once denied. The red lines faded from maps—but not from lives.", dataField: "unemployment_pct" },
-    { title: "Median Income", description: "Your ZIP code should not predict your paycheck.​ But in Boston, median income still aligns eerily with redlining grades.​ Wealth in America is largely built through homeownership and stable employment—both of which were systematically denied to redlined communities. When we compare median income in Boston today by historic redlining grade, the disparities are stark and deeply patterned:​ Grade A areas—once considered “Best”—enjoy the highest incomes.​ Grade D areas—labeled “Hazardous”—remain at the bottom.​ This isn’t accidental. It’s the residue of policy decisions made generations ago.​ This is not just about money—it’s about access, security, dignity, and a future that feels within reach.​", dataField: "Average_Income" },
-    { title: "Mental Distress %", dataField: "mental_distress_pct", description: "We often talk about redlining’s financial impact. But what about its psychological toll?​ In 2022, communities graded C and D in the redlining maps showed higher levels of reported mental distress. Anxiety, depression, chronic stress—these are the emotional inheritances of communities that have endured cycles of disinvestment and neglect.​ Imagine growing up in a neighborhood where schools are underfunded, jobs are scarce, housing is unstable, and violence feels close.​ Over time, these aren’t just environmental pressures—they become internalized traumas.​ Structural racism doesn’t just shape cities. It shapes minds."},
-    { title: "Smoking %", dataField: "smoking_pct", description:"When we think about smoking, we often reduce it to a personal choice. But public health experts know: choices are shaped by context.​ In 2022, smoking rates were noticeably higher in historically redlined areas.​ Why? Because when opportunity is stripped away, people seek ways to cope with stress, instability, and systemic neglect.​ These aren’t bad decisions. They’re the fallout of bad policy.​ This map doesn’t just show where people smoke—it shows where people have been failed.​" },
-    { title: "Crime (all years)", dataField: "crime_count_all_years", description:"Crime doesn’t happen in a vacuum it grows in places where opportunity has been stripped away.​ In historically redlined zones, crime rates remain higher even today. But this isn’t about ”bad neighborhoods,” it’s about neighborhoods that were denied good futures.​ When communities are boxed in by poor infrastructure, underfunded schools, limited economic access, and a lack of social safety nets, cycles of desperation take root.​ And instead of investment, these neighborhoods received surveillance. Instead of healing, they got handcuffs.​ We can’t police our way out of policies that created these conditions." },
-    { title: "Evictions (all years)", dataField: "eviction_count_all_years", description:"Housing isn’t just a building—it’s stability.​ Our data shows that eviction rates are disproportionately high in areas graded C and D. These are the same places where financial vulnerability is baked into the system.​ Evictions aren’t just about unpaid rent. They’re about rising rents in undervalued properties.​ They’re about absentee landlords.​ They’re about entire communities being treated as disposable.​ The legacy of redlining is a housing market that was never designed to protect everyone equally." },
+    { title: "Unemployment %", description: "Decades after redlining was outlawed, the neighborhoods once marked in red remain economically trapped.​ \nOur data shows a clear pattern: in 2024, historically redlined areas—grades C and D—experience significantly higher unemployment than areas once deemed “investment-worthy.”​ \nThis isn’t just correlation—it’s a consequence. When neighborhoods were cut off from mortgage access and business loans, they were cut off from upward mobility. \nBusinesses didn’t open. Schools weren’t funded. Wealth wasn’t built.​ \nToday, unemployment lingers where opportunity was once denied. The red lines faded from maps—but not from lives.", dataField: "unemployment_pct" },
+    { title: "Median Income", description: "Your ZIP code should not predict your paycheck.​ But in Boston, median income still aligns eerily with redlining grades.​ \nWealth in America is largely built through homeownership and stable employment—both of which were systematically denied to redlined communities.\n When we compare median income in Boston today by historic redlining grade, the disparities are stark and deeply patterned:​ \nGrade A areas—once considered “Best”—enjoy the highest incomes.​ \nGrade D areas—labeled “Hazardous”—remain at the bottom.​ This isn’t accidental. \nIt’s the residue of policy decisions made generations ago.​ \nThis is not just about money—it’s about access, security, dignity, and a future that feels within reach.​", dataField: "Average_Income" },
+    { title: "Mental Distress %", dataField: "mental_distress_pct", description: "We often talk about redlining’s financial impact. But what about its psychological toll?​ \nIn 2022, communities graded C and D in the redlining maps showed higher levels of reported mental distress. \nAnxiety, depression, chronic stress—these are the emotional inheritances of communities that have endured cycles of disinvestment and neglect.​ \nImagine growing up in a neighborhood where schools are underfunded, jobs are scarce, housing is unstable, and violence feels close.​ \nOver time, these aren’t just environmental pressures—they become internalized traumas.​ \nStructural racism doesn’t just shape cities. It shapes minds."},
+    { title: "Smoking %", dataField: "smoking_pct", description:"When we think about smoking, we often reduce it to a personal choice.\n But public health experts know: choices are shaped by context.​ \nIn 2022, smoking rates were noticeably higher in historically redlined areas.\n​Why? Because when opportunity is stripped away, people seek ways to cope with stress, instability, and systemic neglect.​ \nThese aren’t bad decisions. They’re the fallout of bad policy.​ \nThis map doesn’t just show where people smoke—it shows where people have been failed.​" },
+    { title: "Crime (all years)", dataField: "crime_count_all_years", description:"Crime doesn’t happen in a vacuum it grows in places where opportunity has been stripped away.\n​In historically redlined zones, crime rates remain higher even today. But this isn’t about ”bad neighborhoods,” it’s about neighborhoods that were denied good futures.\n​When communities are boxed in by poor infrastructure, underfunded schools, limited economic access, and a lack of social safety nets, cycles of desperation take root.​\nAnd instead of investment, these neighborhoods received surveillance. Instead of healing, they got handcuffs.\n​We can’t police our way out of policies that created these conditions." },
+    { title: "Evictions (all years)", dataField: "eviction_count_all_years", description:"Housing isn’t just a building—it’s stability.​ \nOur data shows that eviction rates are disproportionately high in areas graded C and D. These are the same places where financial vulnerability is baked into the system.​ \nEvictions aren’t just about unpaid rent. They’re about rising rents in undervalued properties.\n​They’re about absentee landlords.​ They’re about entire communities being treated as disposable.\n​The legacy of redlining is a housing market that was never designed to protect everyone equally." },
     
     //{ title: "Poor Health %", dataField: "poor_health_pct" },
     
@@ -34,8 +34,8 @@ export default function MapView() {
     // { title: "Homeownership %", dataField: "homeownership_pct" },
     // { title: "Rentership %", dataField: "rentership_pct" },
     
-    { title: "Crowded Housing %", dataField: "crowded_housing_pct", description:"Imagine raising a family where multiple households share one roof, where privacy is a luxury, and where every inch feels borrowed. This is the reality in many formerly redlined neighborhoods.​ Our findings show a higher percentage of crowded housing in grades C and D.​ Why? Because when neighborhoods are historically denied new development, affordable housing, and adequate space, demand outpaces supply.​ Crowding isn’t a cultural choice. It’s a consequence of constrained options.​ Redlining didn’t just limit where people could buy it constrained how they could live.​" },
-    { title: "Is Boston still suffering the effects of redlining?", dataField: null, description:"What we found was undeniable.​ From income to mental health, from eviction risk to life expectancy, the neighborhoods once outlined in red still carry the weight of that ink.​ This isn’t about the past.​ This is about now. About how we design cities. Who gets to feel safe. Who gets to thrive. And who’s still forced to fight for the basics.​ These maps are not just artifacts.​ They’re mirrors. You, right now, can choose to see the invisible lines and help erase them.​ The story of redlining isn’t finished.​ But it can end differently if we decide to redraw the map​.​" },
+    { title: "Crowded Housing %", dataField: "crowded_housing_pct", description:"Imagine raising a family where multiple households share one roof, where privacy is a luxury, and where every inch feels borrowed. This is the reality in many formerly redlined neighborhoods.​\nOur findings show a higher percentage of crowded housing in grades C and D.​ \nWhy? Because when neighborhoods are historically denied new development, affordable housing, and adequate space, demand outpaces supply.​ \nCrowding isn’t a cultural choice. It’s a consequence of constrained options.\n​Redlining didn’t just limit where people could buy it constrained how they could live.​" },
+    { title: "Is Boston still suffering the effects of redlining?", dataField: null, description:"What we found was undeniable.\n​From income to mental health, from eviction risk to life expectancy, the neighborhoods once outlined in red still carry the weight of that ink.\n​This isn’t about the past.\n​This is about now. About how we design cities. Who gets to feel safe. Who gets to thrive. And who’s still forced to fight for the basics.\n​These maps are not just artifacts.​ They’re mirrors.\nYou, right now, can choose to see the invisible lines and help erase them.​\nThe story of redlining isn’t finished.\n​But it can end differently if we decide to redraw the map​.​" },
   ];
 
   const [currentStep, setCurrentStep] = useState(0);
@@ -176,7 +176,7 @@ export default function MapView() {
 
     const sortedValues = processedData
     .filter(d => typeof d[field] === "number")
-    .map(d => ({ value: d[field], area_id: d.area_id }))
+    .map(d => ({ value: d[field], area_id: d.area_id, grade: d.grade }))
     .sort((a, b) => a.value - b.value);
 
     const totalCount = values.length;
@@ -492,7 +492,15 @@ export default function MapView() {
         
         <h3 style={{ margin: 0 }}>{storySteps[currentStep].title}</h3>
         {storySteps[currentStep].description && (
-          <p style={{ marginTop: 6 }}>{storySteps[currentStep].description}</p>
+          <p style={{ marginTop: 6 }}>
+            {/* {storySteps[currentStep].description} */}
+            {storySteps[currentStep].description.split("\n").map((paragraph, index) => (
+              <span key={index}>
+                {paragraph}
+                <br/>
+              </span>
+            ))}
+            </p>
         )}
         
 
@@ -548,103 +556,7 @@ export default function MapView() {
 
         {/* --- 插入统计图模块 --- */}
         {featureStats && (
-  <div style={{ marginTop: 24 }}>
-
-
-
-  {   /*
-    📊 Distribution Histogram
-    <h4 style={{ marginBottom: 8, fontSize: 14 }}>Distribution</h4>
-
-    <div style={{
-      position: "relative",
-      height: 120,
-      paddingLeft: 30,
-      background: "rgba(0,0,0,0.05)",
-      borderRadius: 6,
-      marginBottom: 8,
-      display: "flex",
-      alignItems: "flex-end"
-    }}>
-
-      <div style={{
-        position: "absolute",
-        left: 0,
-        top: 0,
-        bottom: 0,
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "space-between",
-        fontSize: 10,
-        color: "#666",
-        paddingTop: 4,
-        paddingBottom: 4
-      }}>
-        <div>50%</div>
-        <div>25%</div>
-        <div>0%</div>
-      </div>
-
-
-      {featureStats.bins.map((count, i) => (
-        <div key={i} style={{
-          flex: 1,
-          margin: "0 1px",
-          height: `${(count / featureStats.totalCount) * 100}%`,
-          background: "#66bd63",
-          borderRadius: 2,
-          transition: "height 0.5s ease"
-        }} />
-      ))}
-    </div>
-
-
-    <div style={{
-      fontSize: 10,
-      color: "#666",
-      display: "flex",
-      justifyContent: "space-between",
-      marginLeft: 30,
-      marginBottom: 12
-    }}>
-      <div>{featureStats.min.toFixed(0)}</div>
-      <div>{((featureStats.min + featureStats.max) / 2).toFixed(0)}</div>
-      <div>{featureStats.max.toFixed(0)}</div>
-    </div>
-    */}
-
-    {/* Five Number Summary 横排 */}
-    <div style={{
-      fontSize: 10,
-      color: "#333",
-      display: "flex",
-      justifyContent: "space-between",
-      marginTop: 8,
-      marginBottom: 8,
-      padding: "0 4px",
-
-    }}>
-      <div style={{ textAlign: "center" }}>
-        <div style={{ fontWeight: 600 }}>Minimum</div>
-        <div>{featureStats.min.toFixed(2)}</div>
-      </div>
-      <div style={{ textAlign: "center" }}>
-        <div style={{ fontWeight: 600 }}>Q1 (25 Percentile)</div>
-        <div>{featureStats.q1.toFixed(2)}</div>
-      </div>
-      <div style={{ textAlign: "center" }}>
-        <div style={{ fontWeight: 600 }}>Median</div>
-        <div>{featureStats.median.toFixed(2)}</div>
-      </div>
-      <div style={{ textAlign: "center" }}>
-        <div style={{ fontWeight: 600 }}>Q3 (75 Percentile)</div>
-        <div>{featureStats.q3.toFixed(2)}</div>
-      </div>
-      <div style={{ textAlign: "center" }}>
-        <div style={{ fontWeight: 600 }}>Maximum</div>
-        <div>{featureStats.max.toFixed(2)}</div>
-      </div>
-    </div>
+  <div style={{ marginTop: 0 }}>
 
 
     {/* 📈 Feature-by-Parcel 横向条形图 */}
@@ -697,7 +609,7 @@ export default function MapView() {
   </div>
 
 
-      {featureStats.sorted.map(({ value, area_id }, idx) => {
+      {featureStats.sorted.map(({ value, area_id, grade }, idx) => {
         // 调整绘图宽度（自适应不同特征）
         let scaleFactor = 8;
         let adjustedValue = value;
@@ -714,6 +626,8 @@ export default function MapView() {
         }
 
         const widthPx = Math.max(10, adjustedValue * scaleFactor);
+        const backgroundColor = gradeColors[grade] || gradeColors.default;
+
 
         return (
           <div
@@ -774,13 +688,18 @@ export default function MapView() {
               alignItems: "center"
             }}>
               {/* 条条 */}
-              <div style={{
+              
+            <div
+              style={{
                 height: 4,
-                background: "#91cf60",
-                width: `${widthPx}px`,
+                background: backgroundColor, // Dynamically set the background color
+                width: `${widthPx}px`, // Dynamic width
                 borderRadius: 2,
-                transition: "width 0.5s ease"
-              }} />
+                transition: "width 0.5s ease", // Smooth width transition
+              }}
+            />
+
+
 
               {/* 原始数值 */}
               <div style={{
@@ -800,7 +719,7 @@ export default function MapView() {
     </div>
 
     {/* 📈 X轴数值范围 */}
-    <div style={{
+    {/* <div style={{
       fontSize: 10,
       color: "#666",
       display: "flex",
@@ -809,7 +728,7 @@ export default function MapView() {
     }}>
       <div>{featureStats.min.toFixed(0)}</div>
       <div>{featureStats.max.toFixed(0)}</div>
-    </div>
+    </div> */}
 
     <p style={{ marginTop: 16, fontSize: 12, opacity: 0.7 }}>Data normalized per feature</p>
 
